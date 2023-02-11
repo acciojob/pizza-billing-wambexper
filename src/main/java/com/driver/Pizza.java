@@ -72,9 +72,9 @@ public class Pizza {
             this.bill += "Total Price: " + this.price;
             this.isBillCreated = true;
 
-            return this.bill;
+
         }
-        return "";
+        return this.bill;
     }
 
 }
