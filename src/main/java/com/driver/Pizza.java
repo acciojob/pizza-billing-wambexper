@@ -20,7 +20,7 @@ public class Pizza {
             this.price = 300;
             this.toppings = 70;
         } else {
-            this.price = 40;
+            this.price = 400;
             this.toppings = 120;
         }
         this.isExtraCheeseAdded = false;
