@@ -59,7 +59,7 @@ public class Pizza {
     public String getBill() {
 
         if (!isBillCreated) {
-            if (!isExtraCheeseAdded) {
+            if (isExtraCheeseAdded) {
                 this.bill += "Extra Cheese Added: 80" + "\n";
             }
 
