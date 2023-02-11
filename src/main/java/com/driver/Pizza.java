@@ -69,7 +69,7 @@ public class Pizza {
             if (isTakeAway) {
                 this.bill += "Paperbag Added: 20" + "\n";
             }
-            this.bill += "Total Price: " + this.price;
+            this.bill += "Total Price: " + this.price +"\n";
             this.isBillCreated = true;
 
 
